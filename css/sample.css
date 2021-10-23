@@ -12,7 +12,6 @@ body {
   background-image: url("../images/header.jpg");
   background-attachment: fixed;
 }
-/* ここから */
 header {
   background-color: #2B2B2B;
   height: 50px;
@@ -42,9 +41,6 @@ header ul a {
 header li {
   padding: 15px;
 }
-header ul:after {
-}
-/* ここまでがheader部分の実装 */
 .main-header {
   position: relative;
   height: 120px;
@@ -54,18 +50,28 @@ header ul:after {
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-/* main画像（白い「Achieve」の文字の画像）部分の実装 */
   width: 13%;
 }
-.about {
-/* About Achieve部分の実装 */
+.about h1 {
+  font-size: 1.5rem;
+}
+.about p {
+  font-size: 0.8rem;
 }
 /* ここから */
 .function {
+  background-color: #D3D3D3;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .function-images {
+display: table;
+margin: auto;
 }
 .function-image {
+  display: table-cell;
+  padding-left: 80px;
+  font-size: 0.8rem;
 }
 /* ここまでがfunction部分の実装 */
 footer {
