@@ -73,7 +73,19 @@ margin: auto;
   padding-left: 80px;
   font-size: 0.8rem;
 }
-/* ここまでがfunction部分の実装 */
 footer {
-/* footer部分の実装 */
+  background-color: #283A4B;
+  height: 70px;
+  font-size: 0.8rem;
+  color: #fff;
+  display: table;
+  width: 100%;
+}
+footer div {
+  display: table-cell;
+  vertical-align: middle;
+}
+footer p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
